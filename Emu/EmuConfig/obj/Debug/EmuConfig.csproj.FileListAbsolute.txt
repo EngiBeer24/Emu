@@ -1,0 +1,15 @@
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\bin\Debug\EmuConfig.exe.config
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\bin\Debug\EmuConfig.exe
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\bin\Debug\EmuConfig.pdb
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.csprojResolveAssemblyReference.cache
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\MainWindow.g.cs
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\App.g.cs
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig_MarkupCompile.cache
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig_MarkupCompile.lref
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\MainWindow.baml
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.g.resources
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.Properties.Resources.resources
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.csproj.GenerateResource.Cache
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.csproj.CoreCompileInputs.cache
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.exe
+C:\Projects\Emulation\GitHub-Emu\Emu\EmuConfig\obj\Debug\EmuConfig.pdb

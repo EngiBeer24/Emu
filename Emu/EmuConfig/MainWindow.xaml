@@ -1,0 +1,25 @@
+﻿<Window x:Class="EmuConfig.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmuConfig"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Width="800"
+        Height="500"
+        ResizeMode="NoResize">
+    <Grid Background="LightBlue">
+        <Button x:Name="RomDirButton"
+                FontWeight="Bold"
+                Click="RomDirButtonClick" Margin="25,43,602,398" 
+             >
+            <WrapPanel>
+                <TextBlock Foreground="Blue">Change Rom Directory</TextBlock>
+            </WrapPanel>
+        </Button>
+        <TextBox
+            x:Name="RomDirTextBox"
+            IsEnabled="False" Margin="212,43,25,398" />
+    </Grid>
+</Window>
