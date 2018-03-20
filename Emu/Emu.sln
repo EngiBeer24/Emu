@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmuLaunch", "EmuLaunch\EmuL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmuConfig", "EmuConfig\EmuConfig.csproj", "{3016F8A8-5B91-4F38-879E-D26A82F26C86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmuLib", "EmuLib\EmuLib.csproj", "{09F90C94-64E0-4018-9FE0-C7C8EE903E7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3016F8A8-5B91-4F38-879E-D26A82F26C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3016F8A8-5B91-4F38-879E-D26A82F26C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3016F8A8-5B91-4F38-879E-D26A82F26C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F90C94-64E0-4018-9FE0-C7C8EE903E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F90C94-64E0-4018-9FE0-C7C8EE903E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F90C94-64E0-4018-9FE0-C7C8EE903E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F90C94-64E0-4018-9FE0-C7C8EE903E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

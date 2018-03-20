@@ -8,7 +8,9 @@ namespace EmuConfig
         //private String workingDir = Directory.GetCurrentDirectory();
         private String workingDir = @"C:\Projects\Emulation\ProjectEmu";
         private String systemsConfigSubPath = @"\EmulationStation\.emulationstation\es_systems.cfg";
+        private XDocument configFile = null;
         private String romRoot = null;
+        private bool romRootModified = false;
 
         private string GetCOnfigFilePath()
         {
@@ -20,9 +22,15 @@ namespace EmuConfig
             return romRoot;
         }
 
+        public void SetRomRoot(String newRomRoot)
+        {
+            romRoot = newRomRoot;
+            romRootModified = true;
+        }
+
         public void LoadSystemsConfigFile()
         {
-            XDocument configFile = XDocument.Load(GetCOnfigFilePath());
+            configFile = XDocument.Load(GetCOnfigFilePath());
             foreach (var node in configFile.Descendants("system"))
             {
                 String systemName = (String)node.Element("name");
@@ -36,6 +44,14 @@ namespace EmuConfig
                 {
                     romRoot = systemRoot;
                 }
+            }
+        }
+
+        public void SaveChangesToConfigFile()
+        {
+            if (romRootModified && configFile != null)
+            {
+                configFile.Save(@"C:\Projects\Emulation\ProjectEmu\EmulationStation\.emulationstation\save_test.cfg");
             }
         }
     }

@@ -1,7 +1,0 @@
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\bin\Debug\EmuLaunch.exe.config
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\bin\Debug\EmuLaunch.exe
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\bin\Debug\EmuLaunch.pdb
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\obj\Debug\EmuLaunch.csprojResolveAssemblyReference.cache
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\obj\Debug\EmuLaunch.csproj.CoreCompileInputs.cache
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\obj\Debug\EmuLaunch.exe
-C:\Projects\Emulation\GitHub-Emu\Emu\EmuLaunch\obj\Debug\EmuLaunch.pdb

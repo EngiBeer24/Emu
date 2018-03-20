@@ -6,20 +6,25 @@
         xmlns:local="clr-namespace:EmuConfig"
         mc:Ignorable="d"
         Title="MainWindow"
-        Width="800"
+        Width="900"
         Height="500"
         ResizeMode="NoResize">
     <Grid Background="LightBlue">
+        <Label Content="Rom Directory" Margin="25,43,722,390" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="RomDirTextBox" IsEnabled="False" Margin="174,43,170,398" FontSize="16" />
         <Button x:Name="RomDirButton"
+                Content="Change"
+                FontSize="16"
                 FontWeight="Bold"
-                Click="RomDirButtonClick" Margin="25,43,602,398" 
-             >
-            <WrapPanel>
-                <TextBlock Foreground="Blue">Change Rom Directory</TextBlock>
-            </WrapPanel>
+                Click="RomDirButton_Click"
+                Margin="769,43,25,398">
         </Button>
-        <TextBox
-            x:Name="RomDirTextBox"
-            IsEnabled="False" Margin="212,43,25,398" />
+        <Button x:Name="SaveChangesButton"
+                Content="Save"
+                FontSize="16"
+                FontWeight="Bold"
+                Click="SaveChangesButton_Click"
+                Margin="392,398,402,43">
+        </Button>
     </Grid>
 </Window>

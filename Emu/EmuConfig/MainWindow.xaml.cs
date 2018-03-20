@@ -23,6 +23,7 @@ namespace EmuConfig
     public partial class MainWindow : Window
     {
         private SystemsConfig systemsConfig = new SystemsConfig();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -30,15 +31,24 @@ namespace EmuConfig
             RomDirTextBox.Text = systemsConfig.GetRomRoot();
         }
 
-        private void RomDirButtonClick(object sender, RoutedEventArgs e)
+        private void RomDirButton_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new FolderBrowserDialog();
             var result = dialog.ShowDialog();
 
             if (result == System.Windows.Forms.DialogResult.OK)
             {
-                RomDirTextBox.Text = dialog.SelectedPath;
+                if (dialog.SelectedPath != systemsConfig.GetRomRoot())
+                {
+                    RomDirTextBox.Text = dialog.SelectedPath;
+                    systemsConfig.SetRomRoot(dialog.SelectedPath);
+                }
             }
+        }
+
+        private void SaveChangesButton_Click(object sender, RoutedEventArgs e)
+        {
+            systemsConfig.SaveChangesToConfigFile();
         }
     }
 }
